@@ -1,0 +1,29 @@
+<!--pages/user/logins/login.wxml-->
+
+<view class='container' >
+
+  <image class='backgroup_image' src='/images/login_backgroup.png'></image>
+
+  <image class='logo_image' src='/images/logo.png'></image>
+  <view class='login_container'>
+
+    <view class='user_container'>
+      <image class='user_image' src='/images/login_user.png'></image>
+      <input class='user_input' placeholder='请输入账号' type='text' maxlength='16'></input>
+    </view>
+
+    <view class='password_container'>
+      <image class='password_image' src='/images/login_password.png'></image>
+      <input class='password_input' placeholder='请输入密码' password='true' maxlength='16'></input>
+      <image class='password_delete' src='/images/login_delete_password.png'></image>
+    </view>
+
+  </view>
+
+  <view class='login_button' catchtap='login'>
+    <text class='login_text'>登录</text>
+  </view>
+
+
+
+</view>
