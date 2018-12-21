@@ -1,0 +1,89 @@
+<!--pages/result/check-result.wxml-->
+<view>
+
+  <view class='container1'>
+    <view class='container15'>
+      <text>项目</text>
+    </view>
+    <view class='container15'>
+      <text>工艺类型</text>
+    </view>
+    <view class='container15'>
+      <text>良品数</text>
+    </view>
+    <view class='container15'>
+      <text>不良品数</text>
+    </view>
+    <view class='container15'>
+      <text>共计检测</text>
+    </view>
+  </view>
+
+  <view class='container2'>
+    <view class='container15'>
+      <text class='text5'>iphone</text>
+    </view>
+    <view class='container15'>
+      <text class='text5'>18</text>
+    </view>
+    <view class='container15'>
+      <text class='text5'>半成品</text>
+    </view>
+    <view class='container15'>
+      <text class='text5'>10000</text>
+    </view>
+    <view class='container15'>
+      <text class='text5'>10000</text>
+    </view>
+  </view>
+
+  <view class='conatiner3'>
+    <view class='container4'>
+      <text>名称</text>
+    </view>
+
+    <view class='container4'>
+      <text>良品数</text>
+    </view>
+
+    <view class='container4'>
+      <text>不良品数</text>
+    </view>
+
+    <view class='container4'>
+      <text>不良率</text>
+    </view>
+    <view class='container7'>
+      <text>共计检测</text>
+    </view>
+  </view>
+
+  <view>
+    <block wx:for='list'>
+      <view class='container8' catchtap='click_item'>
+
+        <view class='container4'>
+          <text>lcd</text>
+        </view>
+
+        <view class='container4'>
+          <text>10000</text>
+        </view>
+
+        <view class='container4'>
+          <text>200</text>
+        </view>
+
+        <view class='container4'>
+          <text>0.02%</text>
+        </view>
+
+        <view class='container7'>
+          <text>100200</text>
+        </view>
+
+      </view>
+    </block>
+  </view>
+
+</view>

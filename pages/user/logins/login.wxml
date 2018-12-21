@@ -9,13 +9,13 @@
 
     <view class='user_container'>
       <image class='user_image' src='/images/login_user.png'></image>
-      <input class='user_input' placeholder='请输入账号' type='text' maxlength='16'></input>
+      <input class='user_input' bindinput='user_name' placeholder='请输入账号' type='text' maxlength='16'></input>
     </view>
 
     <view class='password_container'>
       <image class='password_image' src='/images/login_password.png'></image>
-      <input class='password_input' placeholder='请输入密码' password='true' maxlength='16'></input>
-      <image class='password_delete' src='/images/login_delete_password.png'></image>
+      <input class='password_input' bindinput='password' placeholder='请输入密码' password='true' maxlength='16' value='{{password}}'></input>
+      <image class='password_delete' catchtap='deletePassword'  src='/images/login_delete_password.png'></image>
     </view>
 
   </view>

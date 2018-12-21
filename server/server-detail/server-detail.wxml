@@ -1,0 +1,101 @@
+<view>
+
+  <view class='container2'>
+    <text class='text2'>服务器编号:</text>
+    <text class='text2'>001</text>
+    <text class='text1'>连接终端数量:</text>
+    <text class='text2'>10</text>
+  </view>
+
+  <text class='text4'>模型列表</text>
+
+  <view class='conatiner3'>
+
+    <view class='conatiner7'>
+      <text>名称</text>
+    </view>
+
+    <view class='conatiner4'>
+      <text>当前版本</text>
+    </view>
+
+    <view class='conatiner4'>
+      <text>最新版本</text>
+    </view>
+    <view class='conatiner4'>
+      <text>操作</text>
+    </view>
+
+  </view>
+
+
+  <block wx:for="list">
+    <view class='container8'>
+      <view class='container11'>
+        <text>freeze1.1</text>
+      </view>
+      <view class='container9'>
+        <text>18</text>
+      </view>
+      <view class='container9'>
+        <text>20</text>
+      </view>
+      <view class='container12'>
+        <view class='container10' catchtap='modelDetail'>
+          <text class='text6'>详情</text>
+        </view>
+      </view>
+
+    </view>
+
+  </block>
+
+  <text class='text4'>配置列表</text>
+
+  <view class='conatiner3'>
+
+    <view class='conatiner7'>
+      <text>名称</text>
+    </view>
+
+    <view class='conatiner4'>
+      <text>工艺类型</text>
+    </view>
+
+    <view class='conatiner4'>
+      <text>最新版本</text>
+    </view>
+    <view class='conatiner4'>
+      <text>操作</text>
+    </view>
+
+  </view>
+
+
+  <block wx:for="list">
+    <view class='container8'>
+      <view class='container11'>
+        <text>i6A</text>
+      </view>
+      <view class='container9'>
+        <text>检测半成品</text>
+      </view>
+      <view class='container9'>
+        <text>20181219</text>
+      </view>
+      <view class='container12'>
+        <view class='container10' catchtap='configDetail'>
+          <text class='text6'>详情</text>
+        </view>
+      </view>
+
+    </view>
+
+  </block>
+
+
+
+
+
+
+</view>

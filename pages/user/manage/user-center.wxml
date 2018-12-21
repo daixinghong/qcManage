@@ -1,0 +1,9 @@
+<!--pages/user/manage/user-center.wxml-->
+<text>个人中心</text>
+
+<view>
+
+  <image src = '/images/logo.png'></image>
+  <text></text>
+
+</view>

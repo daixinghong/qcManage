@@ -1,0 +1,163 @@
+/* pages/devices/device-detil/server-detil.wxss */
+
+/* .line {
+  background: #e4e4e4;
+  height: 1px;
+  width: 100%;
+} */
+
+.classify {
+  margin-left: 50rpx;
+  display: flex;
+  flex-direction: row;
+  height: 90rpx;
+  width: 100%;
+  align-items: center;
+}
+
+.check_object {
+  margin-left: 50rpx;
+  display: flex;
+  flex-direction: row;
+  height: 90rpx;
+  width: 100%;
+  align-items: center;
+}
+
+.choose_classify {
+  padding-left: 10rpx;
+  width: 400rpx;
+  height: 70rpx;
+  border: 1rpx solid #f7f7f7;
+  border-radius: 5rpx;
+  margin-left: 60rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.choose_object {
+  padding-left: 10rpx;
+  border-radius: 5rpx;
+  width: 400rpx;
+  height: 70rpx;
+  border: 1rpx solid #f7f7f7;
+  margin-left: 60rpx;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.title_container {
+  margin-top: 10rpx;
+  background: #f7f7f7;
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  border: 1prx solid #e4e4e4;
+  text-align: center;
+}
+
+.seq {
+  height: 100%;
+  flex: 0.5;
+  border-right: 1px solid #e4e4e4;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.model_name_container {
+  height: 100%;
+  flex: 1;
+  border-right: 1px solid #e4e4e4;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.version_contianer {
+  height: 100%;
+  flex: 1;
+  border-right: 1px solid #e4e4e4;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.choose_download_container {
+  height: 100%;
+  flex: 0.5;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.item_container {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.download_image {
+  height: 80rpx;
+  width: 80rpx;
+}
+
+.item_seq {
+  border-right: 1px solid #e4e4e4;
+  height: 80rpx;
+  flex: 0.5;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.item_status {
+  border-right: 1px solid #e4e4e4;
+  height: 80rpx;
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.item_version {
+  border-right: 1px solid #e4e4e4;
+  height: 80rpx;
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.item_download {
+  border-bottom: 1px solid #e4e4e4;
+  height: 80rpx;
+  flex: 0.5;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.download_container {
+  margin-top: 40rpx;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background: #3f51b5;
+  height: 50rpx;
+  width: 100rpx;
+  border-radius: 3px;
+}
+
+.download_text {
+  color: #fff;
+}

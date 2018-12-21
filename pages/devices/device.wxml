@@ -1,0 +1,67 @@
+<!--pages/devices/device.wxml-->
+<view>
+  <view class='line'></view>
+
+  <view class='case_container'>
+    <view class='local_server_container'>
+      <text class='local_server_text'>本地服务器</text>
+    </view>
+
+    <view class='qc_check_terminal_container'>
+      <text class='local_server_text'>QC检测终端</text>
+    </view>
+
+  </view>
+
+  <view class='item_container'>
+    <block wx:for='list' wx:for-item='item' wx:for-index='index'>
+
+      <view class='container'>
+        <view class='server_container'>
+          <image class='server_image' src='/images/server.png' catchtap='intoDetail'></image>
+          <text class='server_name_text'>ZJ-01</text>
+        </view>
+
+        <view class='terminal_container'>
+          <block wx:for="terminal">
+            <view class='terminal_item_container'>
+              <image class='terminal_image' src='/images/terminal.png'></image>
+              <text class='server_name_text'>001</text>
+            </view>
+          </block>
+        </view>
+
+      </view>
+
+    </block>
+
+    <text class='no_query_server_text'>未查询到本地服务器</text>
+
+    <view class='no_query_server_container'>
+      <block wx:for="list">
+        <view class='container1'>
+          <image class='server_image1' src='/images/server.png'></image>
+          <text class='server_name_text'>ZJ-01</text>
+        </view>
+
+      </block>
+    </view>
+
+    <view class='line'></view>
+
+    <text class='no_query_server_text'>未查询到QC检测终端</text>
+
+    <view class='no_query_server_container'>
+      <block wx:for="lists">
+        <view class='container1' catchtap='terminalItem'>
+          <image class='terminal_image1' src='/images/terminal.png' ></image>
+          <text class='server_name_text'>001</text>
+        </view>
+
+      </block>
+    </view>
+
+    <view class='line'></view>
+
+  </view>
+</view>

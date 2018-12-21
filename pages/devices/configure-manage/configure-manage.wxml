@@ -1,0 +1,52 @@
+<!--pages/devices/device-detil/server-detil.wxml-->
+<view>
+  
+  <view class='title_container'>
+    <view class='seq'>
+      <text>编号</text>
+    </view>
+
+    <view class='model_name_container'>
+      <text>模型名称</text>
+    </view>
+
+    <view class='version_contianer'>
+      <text>版本</text>
+    </view>
+
+    <view class='choose_download_container'>
+      <text>选择下载</text>
+    </view>
+
+  </view>
+
+  <block wx:for='list'>
+    <view class='item_container'>
+
+      <view class='item_seq'>
+        <text>1</text>
+      </view>
+
+      <view class='item_status'>
+        <text>划痕</text>
+      </view>
+
+      <view class='item_version'>
+        <text>1212245562</text>
+      </view>
+
+      <view class='item_download'>
+        <image class='download_image' src='/images/download.png'></image>
+      </view>
+
+    </view>
+  </block>
+
+
+  <view class='download_container'>
+
+    <text class='download_text'>下载</text>
+
+  </view>
+
+</view>

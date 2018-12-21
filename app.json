@@ -1,13 +1,54 @@
 {
-  "pages":[
+  "pages": [
+
     "pages/user/logins/login",
+    "server/server-detail/server-detail",
+    "config/config-version/config-version",
+    "pages/devices/terminal-detail/terminal-detail",
+    "pages/devices/device-detail/server-detail",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/devices/device",
+    "pages/user/manage/user-center",
+    "pages/result/result-detail/result-detail",
+    "pages/devices/configure-manage",
+    "pages/result/check-result",
+    "model/model-version/model-version"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "color": "#c7c7c7",
+    "selectedColor": "#187DEE",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/home.png",
+        "iconPath": "images/home_dark.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/setting_dark.png",
+        "iconPath": "images/setting.png",
+        "pagePath": "pages/devices/device",
+        "text": "设备管理"
+      },
+      {
+        "selectedIconPath": "images/hint_light.png",
+        "iconPath": "images/hint.png",
+        "pagePath": "pages/result/check-result",
+        "text": "检测结果"
+      },
+      {
+        "selectedIconPath": "images/my.png",
+        "iconPath": "images/my_dark.png",
+        "pagePath": "pages/user/manage/user-center",
+        "text": "个人中心"
+      }
+    ]
   }
 }

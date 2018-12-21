@@ -1,0 +1,148 @@
+<view>
+
+  <view class='container2'>
+    <text class='text1'>配置名称:</text>
+    <text class='text2'>iphone6</text>
+    <text class='text3'>创建时间:</text>
+    <text class='text4'>20181219</text>
+  </view>
+
+  <view class='container2'>
+    <text class='text1'>工艺分类:</text>
+    <text class='text2'>半成品检测</text>
+    <text class='text3'>当前版本:</text>
+    <text class='text4'>20181210</text>
+  </view>
+
+  <view class='conatiner3'>
+
+    <view class='conatiner4'>
+      <text>部位</text>
+    </view>
+
+    <view class='container7'>
+      <text>位置参数</text>
+    </view>
+
+    <view class='conatiner4'>
+      <text>操作</text>
+    </view>
+
+  </view>
+
+  <block wx:for='list' wx:for-item='item' wx:for-index='index'>
+
+    <view class='container'>
+      <view class='server_container'>
+        <text class='server_name_text'>摄像头</text>
+      </view>
+      <view class='server_container'>
+        <view>
+          <view>
+            <text>left</text>
+          </view>
+
+          <view>
+            <text>220</text>
+          </view>
+
+          <view>
+            <text>正公差:</text>
+          </view>
+          <view>
+            <input placeholder='请输入'></input>
+          </view>
+
+          <view>
+            <text>负公差:</text>
+          </view>
+          <view>
+            <input placeholder='请输入'></input>
+          </view>
+        </view>
+        <view>
+          <view>
+            <text>right</text>
+          </view>
+
+          <view>
+            <text>220</text>
+          </view>
+
+          <view>
+            <text>正公差:</text>
+          </view>
+          <view>
+            <input placeholder='请输入'></input>
+          </view>
+
+          <view>
+            <text>负公差:</text>
+          </view>
+          <view>
+            <input placeholder='请输入'></input>
+          </view>
+        </view>
+        <view>
+          <view>
+            <text>top</text>
+          </view>
+
+          <view>
+            <text>220</text>
+          </view>
+
+          <view>
+            <text>正公差:</text>
+          </view>
+          <view>
+            <input placeholder='请输入'></input>
+          </view>
+
+          <view>
+            <text>负公差:</text>
+          </view>
+          <view>
+            <input placeholder='请输入'></input>
+          </view>
+        </view>
+        <view>
+          <view>
+            <text>bottom</text>
+          </view>
+
+          <view>
+            <text>220</text>
+          </view>
+
+          <view>
+            <text>正公差:</text>
+          </view>
+          <view>
+            <input placeholder='请输入'></input>
+          </view>
+
+          <view>
+            <text>负公差:</text>
+          </view>
+          <view>
+            <input placeholder='请输入'></input>
+          </view>
+        </view>
+
+      </view>
+
+      <view class='server_container'>
+        <checkbox></checkbox>
+      </view>
+
+    </view>
+
+  </block>
+
+
+
+
+
+
+</view>

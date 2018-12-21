@@ -1,0 +1,76 @@
+<view>
+
+  <view class='container2'>
+    <text class='text1'>设备编号:</text>
+    <text class='text2'>001</text>
+    <text class='text3'>使用配置:</text>
+    <text class='text4'>iphone6</text>
+  </view>
+
+  <view class='container2'>
+    <text class='text1'>工艺分类:</text>
+    <text class='text2'>半成品检测</text>
+    <text class='text3'>版本:</text>
+    <text class='text4'>20181220</text>
+  </view>
+  <view class='container2'>
+    <text class='text1'>当前产量:</text>
+    <text class='text2'>1500</text>
+    <text class='text3'>总产量:</text>
+    <text class='text4'>10000</text>
+  </view>
+  <view class='container2'>
+    <text class='text1'>当日不良数量:</text>
+    <text class='text2'>10</text>
+    <text class='text3'>总计不良总数量:</text>
+    <text class='text4'>500</text>
+  </view>
+
+  <text class='text5'>配置列表</text>
+
+  <view class='conatiner3'>
+
+    <view class='conatiner4'>
+      <text>名称</text>
+    </view>
+
+    <view class='conatiner4'>
+      <text>工艺类型</text>
+    </view>
+
+    <view class='conatiner4'>
+      <text>最新版本</text>
+    </view>
+
+    <view class='conatiner7'>
+      <text>操作</text>
+    </view>
+
+  </view>
+
+  <block wx:for="list">
+    <view class='container8'>
+      <view class='container9'>
+        <text>i6A</text>
+      </view>
+
+      <view class='container9'>
+        <text>组装半成品</text>
+      </view>
+
+      <view class='container9'>
+        <text>20181212</text>
+      </view>
+
+      <view class='container11'>
+        <view class='container10'>
+          <text class='text6'>详情</text>
+        </view>
+      </view>
+
+    </view>
+
+  </block>
+
+
+</view>
